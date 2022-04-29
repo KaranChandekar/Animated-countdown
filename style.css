@@ -24,3 +24,8 @@ h4 {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
+.counter.hide {
+  transform: translate(-50%, -50%) scale(0);
+  animation: hide 0.2s ease-out;
+}
