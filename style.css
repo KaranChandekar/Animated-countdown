@@ -16,3 +16,11 @@ h4 {
   margin: 5px;
   text-transform: uppercase;
 }
+
+.counter {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
